@@ -7,10 +7,13 @@ import { Footer } from "@/components/footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AriaDocs - Template",
+  title: "Complete SEO Road Map From Zero To Hero | Learning SEO",
   metadataBase: new URL("https://ariadocs.vercel.app/"),
   description:
-    "This comprehensive documentation template, crafted with Next.js and available as open-source, delivers a sleek and responsive design, tailored to meet all your project documentation requirements.",
+    "Learning SEO Is A Free SEO Roadmap Made By Professional SEO Consultant Mohamed Diab. I Made Learning SEO To Help People Learn Real SEO.",
+    alternates: {
+      canonical: 'https://learningseo-ut03--3000--24eaa195.local-credentialless.webcontainer.io/',
+    }
 };
 
 export default function RootLayout({
