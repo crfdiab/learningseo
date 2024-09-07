@@ -15,8 +15,8 @@ import { SheetClose } from "@/components/ui/sheet";
 
 export const NAVLINKS = [
   {
-    title: "Documentation",
-    href: `/docs${page_routes[0].href}`,
+    title: "Learn SEO",
+    href: `/learn-seo${page_routes[0].href}`,
   },
   {
     title: "Blog",
