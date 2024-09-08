@@ -15,16 +15,14 @@ export default function Home() {
         <MoveUpRightIcon className="w-4 h-4 font-extrabold" />
       </Link>
       <h1 className="text-3xl font-bold mb-4 sm:text-7xl">
-        An example app built using Next.js and server components.
+      Complete SEO Road Map From Zero To Hero By Learning SEO
       </h1>
       <p className="mb-8 sm:text-xl max-w-[800px] text-muted-foreground">
-        This feature-packed documentation template, built with Next.js, offers a
-        sleek and responsive design, perfect for all your project documentation
-        needs.
+      Learning SEO Is A Complete Beginner-Friendly SEO Roadmap Aiming To Learn And Tech Real SEO That Works. Learning SEO Was Created By <a className="px-1 underline underline-offset-2" href="https://www.linkedin.com/in/diaab/" target="_blank">Mohamed Diab</a>, SEO Specialist With More Than 13 Years Of Practical  And Accumulative Work Experience In SEO Building, And Together We Will Learn SEO Here.
       </p>
       <div className="flex flex-row items-center gap-5">
         <Link
-          href={`/docs${page_routes[0].href}`}
+          href={`/learn-seo${page_routes[0].href}`}
           className={buttonVariants({ className: "px-6", size: "lg" })}
         >
           Get Stared
